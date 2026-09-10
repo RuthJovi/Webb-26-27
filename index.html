@@ -3,81 +3,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LBS</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <h1>LBS</h1>
+        <div class="header-links" >
+            <a href="login.html">Logga in</a>
+            <a href="register.html">Registrera</a>
+        </div>
+    </header>
 
-    <h1>LBS</h1>
-    <p>Detta är LBS, en skola belägen på Regementsgatan 9, Växjö. 
-        Här erbjuds utbildningar med inriktning på programmering, teknisk utveckling, grafik och design.</p>
+    <div>
+        <div class="half-width-container">
+            <div class="column-container">
+                <p>Detta är LBS, en skola belägen på Regementsgatan 9, Växjö. 
+                    Här erbjuds utbildningar med inriktning på programmering, teknisk utveckling, grafik och design.</p>
 
-    <img src="data:image/webp;base64,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" alt="">
+                <p><b>Exempel på kurser:</b></p>
+                    <ul>
+                        <li>Webbserverprogrammering</li>
+                        <li>Digitalt skapande</li>
+                        <li>Grafisk design</li>
+                        <li>Animation</li>
+                        <li>3D-modellering</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="half-width-container" >
+            <img src="data:image/webp;base64,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" alt="">
 
-    <p>Exempel på kurser:</p>
-    <ul>
-        <li>Webbserverprogrammering</li>
-        <li>Digitalt skapande</li>
-        <li>Grafisk design</li>
-        <li>Animation</li>
-        <li>3D-modellering</li>
-    </ul>
-    <hr>
+        </div>
+    </div>
 
-    <p>Såhär kan ett schema se ut för teknikare:</p>
-    <table>
-        <tr>
-            <th>Dag</th>
-            <th>Lektion 1</th>
-            <th>Lektion 2</th>
-            <th>Lektion 3</th>
-            <th>Lektion 4</th>
-        </tr>
-        <tr>
-            <th>Måndag</th>
-            <td>Matematik</td>
-            <td>Svenska</td>
-            <td>Programmering</td>
-            <td>Teknik</td>
-        </tr>
-        <tr>
-            <th>Tisdag</th>
-            <td>Digitalt skapande</td>
-            <td>Digitalt skapande</td>
-            <td>Fysik</td>
-            <td>Engelska</td>
-        </tr>
-        <tr>
-            <th>Onsdag</th>
-            <td>Samhällskunskap</td>
-            <td>Svenska</td>
-            <td>Matematik</td>
-            <td>Matematik</td>
-        </tr>
-        <tr>
-            <th>Torsdag</th>
-            <td>Webbutveckling</td>
-            <td>Kemi</td>
-            <td>Konstruktion</td>
-            <td>Historia</td>
-        </tr>
-        <tr>
-            <th>Fredag</th>
-            <td>Programmering</td>
-            <td>Programmering</td>
-            <td>Engelska</td>
-            <td>Idrott</td>
-        </tr>
-    </table>
-    <br><hr>
+    <div class="column-container">
+        <p><b>Såhär kan ett schema se ut för teknikare:</b></p>
+        <table>
+            <tr>
+                <th>Dag</th>
+                <th>Lektion 1</th>
+                <th>Lektion 2</th>
+                <th>Lektion 3</th>
+                <th>Lektion 4</th>
+            </tr>
+            <tr>
+                <th>Måndag</th>
+                <td>Matematik</td>
+                <td>Svenska</td>
+                <td>Programmering</td>
+                <td>Teknik</td>
+            </tr>
+            <tr>
+                <th>Tisdag</th>
+                <td>Digitalt skapande</td>
+                <td>Digitalt skapande</td>
+                <td>Fysik</td>
+                <td>Engelska</td>
+            </tr>
+            <tr>
+                <th>Onsdag</th>
+                <td>Samhällskunskap</td>
+                <td>Svenska</td>
+                <td>Matematik</td>
+                <td>Matematik</td>
+            </tr>
+            <tr>
+                <th>Torsdag</th>
+                <td>Webbutveckling</td>
+                <td>Kemi</td>
+                <td>Konstruktion</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <th>Fredag</th>
+                <td>Programmering</td>
+                <td>Programmering</td>
+                <td>Engelska</td>
+                <td>Idrott</td>
+            </tr>
+        </table>
 
-    <h3>Om mig</h3>
-    <p>Jag heter Rut och går tredje året på LBS. Mitt favoritämne är <u>matematik</u></p>
-    <br><hr>
+    </div>
 
-    <h3>Fyll i formuläret!</h3>
-    <a href="form.html">Klicka här</a>
-    <br><hr>
+    <div class="column-container">
+        <h3>Om mig</h3>
+        <p>Jag heter Rut och går tredje året på LBS. Mitt favoritämne är <u>matematik</u></p>
+    </div>
+
+    <div class="column-container">
+        <h3>Fyll i formuläret!</h3>
+        <a href="form.html">Klicka här</a>
+    </div>
 
 </body>
 </html>

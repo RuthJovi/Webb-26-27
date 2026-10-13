@@ -1,0 +1,41 @@
+{
+  "cars": [
+    {
+      "id": "001",
+      "license_plate": "RHN44E",
+      "brand": "BMW",
+      "model": "3 series",
+      "year": "2016",
+      "price_per_day": 400,
+      "available": true
+    },
+    {
+      "id": "002",
+      "license_plate": "SEK98K",
+      "brand": "Volvo",
+      "model": "XC60",
+      "year": "2019",
+      "price_per_day": 300,
+      "available": false
+    },
+    {
+      "id": "B4crguWV1cE",
+      "license_plate": "NOK12L",
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "price_per_day": 150,
+      "available": true
+    },
+    {
+      "id": "8EQrrwb7xqA",
+      "license_plate": "wow123",
+      "brand": "totoyta",
+      "model": "camrie",
+      "year": 1980,
+      "price_per_day": 68,
+      "available": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <link rel="stylesheet" href="emp.css">
+
+</head>
+<body style="font-family: Arial;" onload="showData()">
+    <h2 style="text-align: center;">Employees</h2>
+    <div id="add-div">
+        <input type="text" name="txtid" placeholder="ID">
+        <input type="text" name="txtname" placeholder="Name">
+        <input type="text" name="txtmail" placeholder="Email">
+        <input type="text" name="txtposition" placeholder="Position">
+        <input type="text" name="txtsalary" placeholder="Salary">
+
+        <button onclick="addEmployee()">Add employee</button>
+    </div>
+    <br><br>
+    <div>
+        <table id="employeeTable">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </div>
+    
+    <script src="demo.js"></script>
+</body>
+</html>

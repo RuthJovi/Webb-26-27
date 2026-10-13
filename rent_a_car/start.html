@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a car!</title>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body onload="showData()">
+    <nav>
+        <h2>RENT A CAR</h2>
+        <div>
+            <p><i>~~ Only the finest rental service in town ~~</i></p>
+            <p><b>Need a car? Call 194-786-340</b></p>
+        </div>
+        <h2>RENT A CAR</h2>
+    </nav>
+
+    <h1>Welcome admin!</h1>
+    <h2>Manage cars</h2>
+
+    <div id="car-view-div">
+        <div id="car-list">
+    
+        </div>
+
+        <div id="add-form">
+            <!-- text input fields for brand, model and license plate, number input field for year and price per day -->
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand"><br><br>
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model"><br><br>
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year"><br><br>
+            <label for="license_plate">License Plate:</label>
+            <input type="text" id="license_plate" name="license_plate"><br><br>
+            <label for="price_per_day">Price per Day:</label>
+            <input type="number" id="price_per_day" name="price_per_day" step="0.01"><br><br>
+            <button onclick="addCar()">Add Car</button>
+        </div>
+    
+    </div>
+
+    <script src="car.js"></script>
+    
+</body>
+</html>

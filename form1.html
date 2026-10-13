@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: Arial; text-align: center;">
+
+    <form" name="addForm">
+        <label for="int1">Första numret:</label>
+        <input type="text" name="int1" id="int1"><br><br>
+        <label for="int2">Andra numret:</label>
+        <input type="text" name="int2" id="int2"><br><br>
+
+        <input type="button" value="addera" onclick="add()">
+    </form>
+    <h3 id="result"></h3>
+
+    <form name="radioForm">
+        <label>Val 1</label>
+        <input type="radio" name="radio" value="opt1" onchange="radioChoice()"/>
+        &nbsp; &nbsp; &nbsp; 
+        <label>Val 2</label>
+        <input type="radio" name="radio" value="opt2" onchange="radioChoice()"/>
+        &nbsp; &nbsp; &nbsp; 
+        <label>Val 3</label>
+        <input type="radio" name="radio" value="opt3" onchange="radioChoice()"/>
+    </form>
+    <h3 id="choice" style="text-align: center;"></h3>
+
+    <form name="dropDownForm">
+        <label for="subject">Vilken av dessa föredrar du?</label>
+        <select name="subject" id="subject">
+            <option value="math">Matematik</option>
+            <option value="science">Naturkunskap</option>
+            <option value="art">Bild</option>
+            <option value="programming">Programmering</option>
+        </select>
+    </form>
+
+    <script>
+        function add(){
+            let int1 = parseFloat(addForm.int1.value);
+            let int2 = parseFloat(addForm.int2.value);
+            sum = int1 + int2
+            document.getElementById('result').innerHTML="Summa: " + sum;
+        }
+
+        function radioChoice(){
+            let choice = document.querySelector('input[name="radio"]:checked').value;
+            if(choice == "opt1"){
+                document.getElementById('choice').innerHTML="Du har valt alternativ 1"
+            }
+            else if(choice == "opt2"){
+                document.getElementById('choice').innerHTML="Du har valt alternativ 2"
+            }
+            else{
+                document.getElementById('choice').innerHTML="Du har valt alternativ 3"
+            }
+        }
+
+
+    </script>
+</body>
+</html>

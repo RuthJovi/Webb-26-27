@@ -16,7 +16,7 @@
 
     <div class="column-container">
         <h1>Registrera</h1><br><br>
-        <form action="">
+        <form name="register_form">
             <label for="first_name">Förnamn:</label>
             <input type="text" id="first_name" name="first_name"><br><br>
             <label for="surname">Efternamn:</label>
@@ -30,7 +30,7 @@
             <label for="confirm_password">Bekräfta lösenord:</label>
             <input type="password" id="confirm_password" name="confirm_password"><br><br>
 
-            <input class="confirm-btn" type="submit" value="Registrera">
+            <input class="confirm-btn" type="button" value="Registrera" onclick="register()">
             <input class="reset-btn" type="reset" value="Rensa">
             <br><br>
 
@@ -38,6 +38,8 @@
             <a href="index.html">Gå tillbaka</a>
         </form>
     </div>
+
+    <script src="register.js"></script>
 
 </body>
 </html>

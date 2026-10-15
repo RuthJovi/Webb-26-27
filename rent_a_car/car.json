@@ -28,12 +28,39 @@
       "available": true
     },
     {
-      "id": "8EQrrwb7xqA",
-      "license_plate": "wow123",
-      "brand": "totoyta",
-      "model": "camrie",
-      "year": 1980,
-      "price_per_day": 68,
+      "id": "RsLV7d_HVT0",
+      "license_plate": "ALE390",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2014,
+      "price_per_day": 99,
+      "available": true
+    },
+    {
+      "id": "gGlmVH8R764",
+      "license_plate": "WEO93Q",
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2018,
+      "price_per_day": 180,
+      "available": true
+    },
+    {
+      "id": "ZzXEUYeLa0Q",
+      "license_plate": "DTR44Y",
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2020,
+      "price_per_day": 400,
+      "available": true
+    },
+    {
+      "id": "3YOAZIPvfbA",
+      "license_plate": "YLE69N",
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "price_per_day": 200,
       "available": true
     }
   ],

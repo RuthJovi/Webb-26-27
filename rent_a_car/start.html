@@ -17,6 +17,8 @@
 
     <h1>Welcome admin!</h1>
     <h2>Manage cars</h2>
+    <input type="search" id="search-bar" placeholder="Search by brand..">
+    <input type="button" id="search-button" value="Search" onclick="searchCars()">
 
     <div id="car-view-div">
         <div id="car-list">
@@ -26,7 +28,12 @@
         <div id="add-form">
             <!-- text input fields for brand, model and license plate, number input field for year and price per day -->
             <label for="brand">Brand:</label>
-            <input type="text" id="brand" name="brand"><br><br>
+            <select id="brand" name="brand">
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="BMW">BMW</option>
+            </select><br><br>
             <label for="model">Model:</label>
             <input type="text" id="model" name="model"><br><br>
             <label for="year">Year:</label>
